@@ -11,8 +11,8 @@ spec:
       github:
         owner: ymedlop
         repo: gitops-cert-level-3-examples
-        labels:
-         - "preview-ready"
+      labels:
+        - preview
       requeueAfterSeconds: 180
   template:
     metadata:
