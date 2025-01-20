@@ -11,7 +11,7 @@ spec:
     server: https://kubernetes.default.svc
     namespace: staging-eu
   sources:
-    - repoURL: https://github.com/codefresh-contrib/gitops-cert-level-3-examples.git
+    - repoURL: https://github.com/ymedlop/gitops-cert-level-3-examples.git
       path: helm-multi-source/my-chart
       targetRevision: HEAD
       helm:
@@ -21,7 +21,7 @@ spec:
         - $values/helm-multi-source/my-values/env-type/non-prod-values.yaml  
         - $values/helm-multi-source/my-values/regions/eu-values.yaml                
         - $values/helm-multi-source/my-values/envs/staging-eu-values.yaml
-    - repoURL: 'https://github.com/codefresh-contrib/gitops-cert-level-3-examples.git'
+    - repoURL: 'https://github.com/ymedlop/gitops-cert-level-3-examples.git'
       targetRevision: HEAD
       ref: values
   syncPolicy:

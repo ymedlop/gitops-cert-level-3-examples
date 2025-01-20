@@ -11,7 +11,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/codefresh-contrib/gitops-cert-level-3-examples.git
+    repoURL: https://github.com/ymedlop/gitops-cert-level-3-examples.git
     targetRevision: HEAD
     path: ./application-ordering/manifests/api
    
